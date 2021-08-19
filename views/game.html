@@ -5,7 +5,7 @@
   <meta charset="UTF-8"> 
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scallable=no"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
-  <title>🏓Ping Pong</title> 
+  <title>🏓 Ping Pong</title> 
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Sarabun" rel="stylesheet"> 
  <style type="text/css" id="dcoder_stylesheet">
 
@@ -232,7 +232,7 @@ button:active {
     <h3>Ping Pong</h3> 
    </div> 
    <div id="info"> 
-    <b>ⓘ</b> 🏆PEMAIN PERTAMA MENCETAK 10 POIN YANG AKAN MENANG🏆 . 
+    <b>ⓘ</b> 🏆PEMAIN PERTAMA MENCETAK 10 POIN MENANG🏆 . 
    </div> 
    <div class="level"> 
     <div id="easy" onclick="eas()">
@@ -250,7 +250,7 @@ button:active {
   <div id="status"> 
    <center> 
     <div id="result">
-      Kamu Menang :D 
+     Selamat Kamu Menang🏆
     </div> 
    </center> 
    <center> 
@@ -527,13 +527,13 @@ function game() {
     render();  update();
     if(ai.point == 10)
     {   
-        change('You lost');  
+        change('You Lose');  
         lose.volume=1;
         lose.play()   ;          
     }
     else if(user.point == 10)
     {
-        change('You won');
+        change('You Win');
         win.volume=1;
         win.play();
     }    
