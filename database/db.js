@@ -5,7 +5,7 @@ var __path = process.cwd(),
 // Connection URL
 var url = 'https://aruliazmibot-api.herokuapp.com';
 try {
-if(url == 'https://fxz-api.herokuapp.com') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://zerochanbot.herokuapp.com') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
